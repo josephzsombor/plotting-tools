@@ -5,12 +5,14 @@ A collection of Python scripts for generating interactive and static plots for v
 ---
 
 📂 Repository Structure
+```
 plotting-tools/
 ├── examples/ #example data and example .csv, .json, .txt input files
 ├── notebooks/ #notebooks for interactively plotting SVGs with matplotlib
 ├── src/
 │   └── plottingtools/ #standalone python scripts for interactive plotting
 └── cc-scripts/ (submodule for parsing ORCA output files to generate .csv input files)
+```
 
 ---
 

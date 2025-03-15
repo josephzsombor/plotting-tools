@@ -1,6 +1,6 @@
 # Plotting Tools 🛠️📈
 
-A collection of Python scripts for generating interactive and static plots for visualizing computational chemistry output data (from ORCA) and experimental spectra. This repo is broken into two core sections: `src/plottingtools` contains standalone python scripts for interactive plotting and `notebooks` contains jupyter notebook files with matplotlib-based plotting routines. These potentially involve large amounts of user-defined input and customization, so it makes sense to run them as notebooks.
+A collection of Python scripts for generating interactive and static plots for visualizing computational chemistry output data (from ORCA) and experimental spectra. This repo is broken into two core sections: `src/plottingtools` contains standalone python scripts for interactive plotting and `notebooks` contains jupyter notebook with user-customizable matplotlib-based templates for plotting publication-ready vector graphics.
 
 ---
 

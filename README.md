@@ -1,6 +1,16 @@
 # Plotting Tools 🛠️📈
 
-A collection of Python scripts for generating interactive and static plots for visualizing computational chemistry output data (from ORCA) and experimental spectra
+A collection of Python scripts for generating interactive and static plots for visualizing computational chemistry output data (from ORCA) and experimental spectra. This repo is broken into two core sections: `src/plottingtools` contains standalone python scripts for interactive plotting and `notebooks` contains jupyter notebook files with matplotlib-based plotting routines. These potentially involve large amounts of user-defined input and customization, so it makes sense to run them as notebooks.
+
+---
+
+📂 Repository Structure
+plotting-tools/
+├── examples/ #example data and example .csv, .json, .txt input files
+├── notebooks/ #notebooks for interactively plotting SVGs with matplotlib
+├── src/
+│   └── plottingtools/ #standalone python scripts for interactive plotting
+└── cc-scripts/ (submodule for parsing ORCA output files to generate .csv input files)
 
 ---
 
@@ -32,18 +42,9 @@ pip install -r requirements.txt
 ```
 git clone --recurse-submodules https://github.com/josephzsombor/plotting-tools.git
 ```
-📂 Repository Structure
-
-plotting-tools/
-├── src/
-│   └── plottingtools/
-│       ├── interactive_mo_diagram.py
-│       └── static_mo_diagram.py (coming soon)
-├── README.md
-└── requirements.txt
 
 🛠️ Tools
-1. interactive_mo_diagram.py
+1. orbital_energies_interactive.py
 
 An interactive Dash + Plotly app to visualize MO energy levels, select a window, and export an energy range for further plotting.
 
@@ -58,9 +59,9 @@ python src/plottingtools/interactive_mo_diagram.py \
   You can zoom in on a region of the energy diagram.
   Click Save Energy Window to export your current window as energy_window.json in your working directory.
 
-2. static_mo_diagram.py (coming soon)
+2. orbital_energies_mpl.py or orbital_energies_mpl.ipynb
 
-A static Matplotlib version of the MO energy diagram, designed for use in publications. Accepts an energy window (either manually specified or imported from energy_window.json).
+A static Matplotlib version of the MO energy diagram, designed for use in publications. Accepts an energy window (either manually specified or imported from energy_window.json) or a range of orbital numbers to plot. 
 
 📄 Example CSV Format
 

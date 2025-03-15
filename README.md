@@ -27,7 +27,7 @@ A collection of Python scripts for generating interactive and static plots for v
 👉 Install all dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 📂 Repository Structure
 
 plotting-tools/

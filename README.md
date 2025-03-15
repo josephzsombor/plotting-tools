@@ -28,6 +28,10 @@ A collection of Python scripts for generating interactive and static plots for v
 ```bash
 pip install -r requirements.txt
 ```
+👉 Install the repo with submodules:
+```
+git clone --recurse-submodules https://github.com/josephzsombor/plotting-tools.git
+```
 📂 Repository Structure
 
 plotting-tools/

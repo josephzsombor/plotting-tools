@@ -3,3 +3,7 @@ plotly>=5.0.0
 dash>=2.0.0
 matplotlib>=3.4.0
 
+# Jupyter Notebook support
+jupyterlab>=3.0.0
+
+

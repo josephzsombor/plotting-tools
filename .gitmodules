@@ -1,0 +1,3 @@
+[submodule "external/cc-scripts"]
+	path = external/cc-scripts
+	url = https://github.com/josephzsombor/cc-scripts.git

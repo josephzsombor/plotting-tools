@@ -35,7 +35,9 @@ plotting-tools/
   - `plotly`
   - `dash`
   - `matplotlib` (for static plots)
+---
 
+## Installation
 👉 Install all dependencies:
 ```bash
 pip install -r requirements.txt
@@ -44,6 +46,7 @@ pip install -r requirements.txt
 ```
 git clone --recurse-submodules https://github.com/josephzsombor/plotting-tools.git
 ```
+---
 
 🛠️ Tools
 1. orbital_energies_interactive.py

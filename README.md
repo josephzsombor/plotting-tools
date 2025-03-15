@@ -44,12 +44,12 @@ plotting-tools/
 An interactive Dash + Plotly app to visualize MO energy levels, select a window, and export an energy range for further plotting.
 
 Usage example:
-```
+
 python src/plottingtools/interactive_mo_diagram.py \
   --csv /path/to/VOMnt-cpcm-tddft-1sulfur-hfx25.15_orbital_energies.csv \
   --alpha-somo 84 \
   --beta-somo 87
-```
+
     After running, a browser window will open automatically.
     You can zoom in on a region of the energy diagram.
     Click Save Energy Window to export your current window as energy_window.json in your working directory.

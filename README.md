@@ -4,7 +4,7 @@ A collection of Python scripts for generating interactive and static plots for v
 
 ---
 
-📂 Repository Structure
+## Repository Structure 📂 
 ```
 plotting-tools/
 ├── examples/ #example data and example .csv, .json, .txt input files
@@ -48,7 +48,7 @@ git clone --recurse-submodules https://github.com/josephzsombor/plotting-tools.g
 ```
 ---
 
-🛠️ Tools
+## Tools 🛠️ 
 1. orbital_energies_interactive.py
 
 An interactive Dash + Plotly app to visualize MO energy levels, select a window, and export an energy range for further plotting.
